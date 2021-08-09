@@ -1,0 +1,48 @@
+.signInDivParent {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.signInDiv {
+    max-width: 450px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 40px
+}
+
+.signinForm input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: #333333;
+    border: none;
+    color: white;
+}
+
+.button {
+    margin-top: 30px;
+    background-color: #F40612;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.otherThings div {
+    margin-top: 15px;
+    color: #b3b3b3 !important;
+}
+
+.rememberSection {
+    display: flex;
+    justify-content: space-between;
+}

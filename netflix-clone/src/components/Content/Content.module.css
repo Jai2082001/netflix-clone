@@ -1,0 +1,24 @@
+.contentParent {
+    margin-top: 50px;
+    padding: 150px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+
+.contentChild {
+    padding: 0px 250px
+}
+
+.heading {
+    /* margin-top: 10px; */
+    font-size: 40px;
+}
+
+.subText {
+    margin-top: 10px;
+    font-size: 20px;
+}

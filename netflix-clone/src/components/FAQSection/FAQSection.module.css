@@ -1,0 +1,25 @@
+.faqSection {
+    background-color: #303030;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.answerSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    font-size: 26px;
+}
+
+.answerSec {
+    padding: 10px;
+    background-color: #303030;
+    color: white;
+    font-size: 25px;
+}
+
+.parentSec {
+    transition: height 1s ease-in;
+    height: auto;
+}

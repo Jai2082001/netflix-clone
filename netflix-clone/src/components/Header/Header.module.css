@@ -1,0 +1,15 @@
+.headerParent {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px
+}
+
+.button {
+    background-color: #F40612;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}

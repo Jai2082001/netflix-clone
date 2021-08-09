@@ -1,0 +1,27 @@
+.introSectionParent {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.introCardText {
+    color: white;
+}
+
+.introCardTextHeading {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.imgContainer img {
+    max-width: 100%;
+}
+
+.fqaSection {
+    text-align: center;
+}
+
+.fqaSection h1 {
+    font-size: 40px;
+    color: white
+}

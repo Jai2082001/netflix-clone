@@ -1,0 +1,16 @@
+.footerParent {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.listContainer {
+    display: flex;
+}
+
+.listContainer ul {
+    list-style-type: none;
+}

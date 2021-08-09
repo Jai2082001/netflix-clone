@@ -1,0 +1,20 @@
+.parentBackground {
+    /* height: 100vh; */
+    /* position: relative; */
+    background-image: url('../../images/misc/home-bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    border-bottom: 8px solid #222;
+}
+
+.parentBackground img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
