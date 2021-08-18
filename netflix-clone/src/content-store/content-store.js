@@ -1,15 +1,31 @@
 
 import { createSlice, configureStore } from '@reduxjs/toolkit'
 
-const userInitialState = { name: '', password: '', email: ''}
+const userInitialState = { name: '', password: '', email: '', isAuth: false}
 const userSlice = createSlice({
     name: 'User',
     initialState: userInitialState,
     reducers: {
+        changeWholeUser(state, action) {
+            if(action.payload.password){
+                state.password = action.payload.password;
+            }
+            if (action.payload.email) {
+                console.log('true it is here')
+                state.email = action.payload.email;
+            }
+            if(action.payload.isAuth){
+                state.isAuth = action.payload.isAuth
+            }
+            if(action.payload.name){
+                state.name  = action.payload.name;
+            }
+        },
         changeUser(state, action) {
-            state.name = action.payload.name;
-            state.password = action.payload.password;
-            state.email = action.payload.email    
+            // for input as it has become non-mutable
+            if (action.payload) {
+                state.email = action.payload
+            }
         }
     }
 })

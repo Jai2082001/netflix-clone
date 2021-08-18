@@ -1,9 +1,9 @@
 import React from 'react'
 import classes from './Footer.module.css'
 
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <div className={classes.footerParent}>
+        <div className={classes.footerParent} style={props.style}>
             <div className={ classes.heading }>
                 Questions? Call 000-800-040-1843
             </div>

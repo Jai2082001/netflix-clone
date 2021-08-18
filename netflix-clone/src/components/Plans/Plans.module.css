@@ -1,0 +1,139 @@
+.planTableSection {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Heading {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding: 20px 0px;
+}
+
+.planTable {
+    width: 100%;
+    color: #737373;
+    border-collapse: collapse;
+}
+
+.planTable tr {
+    border-bottom: 1px solid #737373;
+}
+
+td {
+    padding: 20px 16px;
+}
+
+.planNameHead {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    left: 0
+}
+
+.planNameChild {
+    width: 67%;
+    display: flex;
+}
+
+.planNameChild div {
+    vertical-align: text-top;
+    /* display: inline-block; */
+    width: 25%;
+    position: relative;
+    height: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.planNameChild div span {
+    opacity: 0.6;
+    position: absolute;
+    z-index: 5;
+    width: 80%;
+    height: 80%;
+    background-color: #e50914;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 8px;
+}
+
+.planNameChild div span::after {
+    content: '';
+    background-color: #e50914;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+.activatePlanHead {
+    opacity: 1 !important;
+    color: #e50914;
+}
+
+.activatePlanHead::after {
+    border: 10px solid transparent;
+    border-top-color: #e50914;
+    border-bottom-width: 0px;
+    transform: translateX(-50%);
+}
+
+.planNameChild div input {
+    position: absolute;
+    z-index: 7;
+    width: 80%;
+    height: 80%;
+    appearance: none;
+    cursor: pointer;
+}
+
+.devicesRow i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.devicesRow i p {
+    margin-top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.devicesRow td {
+    vertical-align: top;
+}
+
+.detailColumn {
+    width: 35%;
+    text-align: left;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.buttonPlan {
+    background-color: #e50914;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    min-width: 110px;
+    padding: 20px 0px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.buttonContainer button {
+    cursor: pointer;
+    background-color: #F40612;
+    color: white;
+    width: 100%;
+    padding: 25px 20px;
+    max-width: 450px;
+    font-size: 16px;
+    border: none
+}
+
+.iconsDiv i {
+    font-size: 50px;
+    color: #F40612;
+    margin: 100px 10px;
+    margin-bottom: 30px;
+}
+
+.subText {
+    text-align: center;
+    font-size: 18px;
+    color: #333333 !important;
+    padding: 10px;
+}
+
+.subText div {
+    margin: 20px 0px
+}

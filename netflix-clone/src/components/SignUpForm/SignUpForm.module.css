@@ -1,0 +1,27 @@
+.signUpForm {
+    padding: 0px 15px
+}
+
+.signUpForm input {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 20px 10px
+}
+
+.signUpForm button {
+    background-color: #F40612;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.text div {
+    margin: 10px 0px;
+    font-size: 18px;
+}

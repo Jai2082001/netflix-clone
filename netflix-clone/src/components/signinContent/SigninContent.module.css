@@ -9,32 +9,9 @@
 }
 
 .signInDiv {
-    max-width: 450px;
+    max-width: 500px;
     background-color: rgba(0, 0, 0, 0.75);
-    padding: 60px 40px
-}
-
-.signinForm input {
-    width: 100%;
-    padding: 10px 15px;
-    font-size: 20px;
-    margin-top: 25px;
-    background-color: #333333;
-    border: none;
-    color: white;
-}
-
-.button {
-    margin-top: 30px;
-    background-color: #F40612;
-    color: white;
-    border: none;
-    width: 100%;
-    font-size: 20px;
-    padding: 15px 20px;
-    border-radius: 7px;
-    font-weight: bolder;
-    cursor: pointer;
+    padding: 80px
 }
 
 .otherThings div {
